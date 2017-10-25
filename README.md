@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int main()
 {
     int m,n,i,j;
@@ -7,7 +6,8 @@ int main()
 
     scanf("%d %d",&m,&n);
 
-        for(i=1;i<=m;i++)
+        
+    for(i=1;i<=m;i++)
         {
             for(j=1;j<=n;j++)
             {
@@ -15,7 +15,7 @@ int main()
             }
         }
 
-        for(i=1;i<=m;i++)
+    for(i=1;i<=m;i++)
         {
             for(j=1;j<=n;j++)
             {
@@ -23,7 +23,7 @@ int main()
             }
         }
 
-        for(i=1;i<=m;i++)
+     for(i=1;i<=m;i++)
         {
             for(j=1;j<=n;j++)
             {
@@ -31,8 +31,5 @@ int main()
             }
             printf("\n");
         }
-
-
     return 0;
-
 }
